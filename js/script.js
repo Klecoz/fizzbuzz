@@ -3,19 +3,19 @@ $( document ).ready(function() {
     for (var i = 1; i <= 100; i++) {
 
       if (i%3 === 0  && i%5 === 0) {
-        console.log('fizzbuzz');
+        $('.list').append('<li>'+ 'fizzbuzz' + '</li>');
       }
 
       else if (i%3 === 0) {
-        console.log('fizz' + i);
+        $('.list').append('<li>'+ 'fizz' + '</li>');
       }
 
       else if (i%5 === 0) {
-        console.log('buzz' + i);
+        $('.list').append('<li>'+ 'buzz' + '</li>');
       }
 
       else {
-        console.log(i);
+        $('.list').append('<li>'+ i + '</li>');
       }
     }
 
