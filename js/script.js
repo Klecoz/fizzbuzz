@@ -1,4 +1,6 @@
 $( document ).ready(function() {
+
+    var max = prompt('Please Enter a number you would like to fizzbuzz to');
     //From 0 to 100, until i = 100
     for (var i = 1; i <= 100; i++) {
 
